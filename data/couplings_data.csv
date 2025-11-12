@@ -1,0 +1,69 @@
+Coupling_ID,Context,Upstream_Function,Downstream_Function,Aspect_Type
+1,Departure,To follow the rules,To prepare the engine,C
+2,Departure,To follow the rules,To control the rudder,C
+3,Departure,To follow the rules,Maneuvering / To depart,C
+4,Departure,To follow the rules,To do bow and aft work,C
+5,Departure,To follow the rules,To monitor (by Captain),C
+6,Departure,Briefing,To board the ship,P
+7,Departure,To perform checklist,To board the ship,P
+8,Departure,To board the ship,To monitor (by Captain),I
+9,Departure,To monitor (by Captain),To communicate with engine dept.,I
+10,Departure,To monitor (by Captain),To communicate with deck dept.,I
+11,Departure,To monitor (by Captain),To instruct Helmsman,I
+12,Departure,To communicate with engine dept.,To prepare the engine,P
+13,Departure,To communicate with deck dept.,To do bow and aft work,P
+14,Departure,To instruct Helmsman,To monitor (by Captain),I
+15,Departure,To instruct Helmsman,To control the rudder,I
+16,Departure,To prepare the engine,To monitor (by Captain),I
+17,Departure,To prepare the engine,Maneuvering / To depart,I
+18,Departure,To do bow and aft work,To monitor (by Captain),I
+19,Departure,To watch the vicinity,To do bow and aft work,R
+20,Departure,To watch the vicinity,To monitor (by Captain),R
+21,Departure,To pay attention to the VHF radio,To monitor (by Captain),R
+22,Departure,To watch the electronic devices,To monitor (by Captain),R
+23,Departure,To control the rudder,Maneuvering / To depart,I
+24,Departure,Maneuvering / To depart,To monitor (by Captain),I 
+25,Sailing,To instruct Helmsman,To control the rudder,I
+26,Sailing,To instruct Helmsman,To monitor (by OOW),I
+27,Sailing,To monitor the weather condition,To monitor (by OOW),I
+28,Sailing,To take over the bridge control,To instruct Helmsman,I
+29,Sailing,To take over the bridge control,To monitor (by OOW),I
+30,Sailing,Standby (Captain),To take over the bridge control,I
+31,Sailing,Standby (Captain),To monitor (by OOW),C
+32,Sailing,To monitor (by OOW),To instruct Helmsman,I
+33,Sailing,To monitor (by OOW),To communicate with VTS,R
+34,Sailing,To monitor (by OOW),To communicate with other ship,R
+35,Sailing,To pay attention to the VHF radio,To monitor (by OOW),R
+36,Sailing,To watch the electronic devices,To monitor (by OOW),R
+37,Sailing,To control the rudder,Maneuvering,I
+38,Sailing,To do direct lookout,To monitor (by OOW),R
+39,Sailing,To follow the rules,To control the rudder,C
+40,Sailing,To follow the rules,To communicate with other ship,C
+41,Sailing,To follow the rules,To communicate with VTS,C
+42,Sailing,To follow the rules,To take over the bridge control,C
+43,Sailing,To follow the rules,Maneuvering,C
+44,Sailing,To communicate with other ship,To monitor (by OOW),I
+45,Sailing,To communicate with VTS,To monitor (by OOW),I
+46,Sailing,Maneuvering,To monitor (by OOW),I
+47,Arrival,To take over the bridge control,To monitor (by Captain),I
+48,Arrival,To follow the rules,To control the engine,C
+49,Arrival,To follow the rules,To do bow and aft work,C
+50,Arrival,To follow the rules,To control the rudder,C
+51,Arrival,To follow the rules,Maneuvering / To arrive,C
+52,Arrival,To follow the rules,To monitor (by Captain),C
+53,Arrival,To monitor (by Captain),To communicate with engine dept.,I
+54,Arrival,To monitor (by Captain),To communicate with deck dept.,I
+55,Arrival,To monitor (by Captain),To instruct Helmsman,I
+56,Arrival,To communicate with engine dept.,To control the engine,I
+57,Arrival,To communicate with deck dept.,To do bow and aft work,I
+58,Arrival,To instruct Helmsman,To monitor (by Captain),I
+59,Arrival,To instruct Helmsman,To control the rudder,I
+60,Arrival,To control the engine,To monitor (by Captain),I
+61,Arrival,To control the engine,Maneuvering / To arrive,I
+62,Arrival,To do bow and aft work,To monitor (by Captain),I
+63,Arrival,To watch the vicinity,To do bow and aft work,R
+64,Arrival,To watch the vicinity,To monitor (by Captain),R
+65,Arrival,To watch the electronic devices,To monitor (by Captain),R
+66,Arrival,To pay attention to the VHF radio,To monitor (by Captain),R
+67,Arrival,To control the rudder,Maneuvering / To arrive,I
+68,Arrival,Maneuvering / To arrive,To monitor (by Captain),I
